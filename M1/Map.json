@@ -1,0 +1,55 @@
+{
+  "M": "on",
+  "E": "off",
+  "T": "emit",
+  "A": "register a work",
+  "L": "unregister a work",
+  "ME": "mount",
+  "EM": "unmount",
+  "TA": "halt",
+  "AT": "shift",
+  "LA": "status",
+  "AL": "version",
+  "LM": "active work",
+  "AA": "persistent works",
+  "EE": "registered works",
+  "TT": "fault class",
+  "LL": "fault codes",
+  "EL": "provide (rpc handler)",
+  "LE": "withdraw",
+  "EA": "use (middleware)",
+  "AE": "call (rpc invoke, cached+rate-limited)",
+  "TE": "evict one cache entry",
+  "ET": "clear all cache",
+  "LT": {
+    "A": "add",
+    "L": "remove",
+    "T": "pause",
+    "E": "resume",
+    "M": "configure",
+    "AL": "signals",
+    "ML": "start",
+    "LM": "stop"
+  },
+  "TL": {
+    "A": "register a resolver",
+    "L": "unregister a resolver",
+    "E": "fetch",
+    "T": "list resolvers"
+  },
+  "TM": {
+    "M": "read (.mtl in, arbitrary files out)",
+    "ME": "compose (files in, .mtl out)",
+    "EM": "stash (persist install state)",
+    "TA": "salvage",
+    "AT": "erase",
+    "LA": "ledger"
+  },
+  "AM": {
+    "M": "cache",
+    "E": "fetch (touches lru)",
+    "T": "forget",
+    "A": "count",
+    "L": "list"
+  }
+}
